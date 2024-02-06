@@ -6,6 +6,7 @@
   cursor: pointer;
   text-decoration: none;
   line-height: 1;
+  letter-spacing: 2px;
   font-family: $button-font-family;
   font-size: $button-font-size;
   text-transform: $button-text-transform;
@@ -14,16 +15,6 @@
   border: $button-border;
   border-radius: $button-border-radius;
   transition: 275ms ease;
-
-  &[data-type="accent"] {
-    background-color: $button-accent-background;
-    color: $button-accent-color;
-
-    &:is(:hover, :focus) {
-      background-color: $button-accent-background-hover;
-      color: $button-accent-color-hover;
-    }
-  }
 
   &[data-type="primary"] {
     background-color: $button-primary-background;
