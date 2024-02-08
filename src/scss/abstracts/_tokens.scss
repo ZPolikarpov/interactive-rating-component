@@ -34,7 +34,7 @@ $box-shadow-5: 0px 6px 5px rgb(0, 0, 0, 0.04), 0px 22px 18px rgb(0, 0, 0, 0.06),
 
 // body
 $body-font-family: $font-family-base;
-$body-font-size: $font-size-400;
+$body-font-size: $font-size-300;
 $body-line-height: 1.5;
 $body-font-weight: $font-weight-default;
 $body-text-color: $color-text-default;
@@ -79,7 +79,7 @@ $button-primary-background-hover: $color-neutral-000;
 
 // cards
 $card-flow-spacing: $size-6;
-$card-padding: $size-8;
+$card-padding: clamp($size-6, -4.318rem + 21.622vw, $size-8);
 $card-shadow: none;
 $card-border-radius: $border-radius-2;
 $card-background-default: $color-neutral-750;

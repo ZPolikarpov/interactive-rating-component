@@ -2,7 +2,7 @@
 
 .card {
   display: grid;
-  gap: $card-flow-spacing;
+  gap: var(--card-gap, $card-flow-spacing);
   padding: $card-padding;
   background-color: $card-background-default;
   font-family: $card-font-family;
@@ -13,5 +13,16 @@
 
   &__heading {
     @include heading($card-heading-font-size, $card-heading-color-default);
+  }
+
+  &__rating-pill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: $size-1;
+    padding-inline: clamp($size-3, -4.318rem + 21.622vw, $size-5);
+    color: $color-primary-400;
+    background-color: $color-neutral-700;
+    border-radius: $border-radius-1;
   }
 }

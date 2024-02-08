@@ -3,7 +3,7 @@
 .rating {
   display: flex;
   flex-direction: column;
-  gap: $size-8;
+  gap: clamp($size-6, -4.318rem + 21.622vw, $size-8);
 
   &__list {
     list-style: none;
@@ -21,6 +21,11 @@
 
       &:is(:hover, :focus) {
         background-color: $color-primary-400;
+        color: $color-neutral-000;
+      }
+
+      &[aria-selected="true"] {
+        background-color: $color-neutral-400;
         color: $color-neutral-000;
       }
 

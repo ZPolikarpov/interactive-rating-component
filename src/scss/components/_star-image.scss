@@ -2,5 +2,5 @@
 
 .star-image {
   width: 13.8%;
-  margin-bottom: $size-4;
+  margin-bottom: clamp(0rem, -10.135rem + 43.243vw, $size-4);
 }
