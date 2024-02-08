@@ -4,7 +4,7 @@ This is a solution to the Interactive Rating challenge on Frontend Mentor.
 
 ### Links
 
-Solution URL: [Solution - Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-scss-UbI1QWj-Nr)\
+Solution URL: [Solution - Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-using-scss-and-react-kGg54tf4RL)\
 Live Site URL: [Live Site](https://zpolikarpov.github.io/interactive-rating-component/)\
 \
 
