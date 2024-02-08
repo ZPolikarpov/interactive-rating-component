@@ -8,4 +8,6 @@ export default defineConfig({
     react(),
     htmlPurge([htmlPurge()]),
   ],
+	base: '/interactive-rating-component/',
+
 })
