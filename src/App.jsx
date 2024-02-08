@@ -8,7 +8,7 @@ function App() {
 
 	function submitRating(iRating) {
 		if (Number.isInteger(iRating)) {
-			setRating(iRating)
+			setRating(iRating + 1)
 		} else {
 			console.error("No Rating selected")
 		}
